@@ -6,3 +6,13 @@ edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+anyhow = "1.0.70"
+axum = "0.6.16"
+http = "0.2.9"
+hyper = "0.14.26"
+serde = { version = "1.0.160", features = ["derive"] }
+serde_yaml = "0.9.21"
+thiserror = "1.0.40"
+tokio = { version = "1.27.0", features = ["full"] }
+tower = "0.4.13"
+tower-http = { version = "0.4.0", features = ["cors", "compression-full", "set-header"] }

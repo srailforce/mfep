@@ -1,0 +1,9 @@
+auto_resp:
+  - listen: 0.0.0.0:8080
+    responsors:
+    - path: /exmaple/path/to/api
+      header:
+        "Content-Type": "application/json"
+      response: "{}"
+
+
